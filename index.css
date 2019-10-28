@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
 
 body {
-    background: black;
+    background: grey;
     font-size: 22px;
     line-height: 32px;
     color: white;
@@ -78,3 +78,10 @@ nav ul ul li:hover > ul {
     position: absolute;
 }
 
+li > a:after {
+    content: " -->";
+}
+
+li > a:only-child:after{
+    content: "";
+}
